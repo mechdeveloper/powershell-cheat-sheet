@@ -16,8 +16,6 @@ hostname
 Exit-PSSession
 ```
 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/new-pssession?view=powershell-7
-
 ## logoff a user from a session 
 ```
 logoff
