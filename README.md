@@ -280,7 +280,7 @@ Get-CimInstance -Class Win32_OperatingSystem | Format-List Total*Memory*, Free*
 ```
 
 # Creating .NET and COM Objects (New-Object)
-## Using Ineternet Explorer from Windows Powershell
+## Using Internet Explorer from Windows Powershell
 ```
 $ie = New-Object -ComObject InternetExplorer.Application
 $ie.Visible = $true
