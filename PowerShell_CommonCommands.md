@@ -7,9 +7,20 @@ $Server01 = New-PSSession -ComputerName Server01
 $s1, $s2, $s3 = New-PSSession -ComputerName Server01,Server02,Server03
 ```
 
+### Create and Enter PS Session
 ```
 $Server01 = NEW-PSSESSION -COMPUTERNAME Server01
 ENTER-PSSESSION -SESSION $Server01
+
+hostname
+
+Exit-PSSession
+```
+
+## Directly enter PS Session
+
+```
+ENTER-PSSESSION -COMPUTERNAME Server01
 
 hostname
 
